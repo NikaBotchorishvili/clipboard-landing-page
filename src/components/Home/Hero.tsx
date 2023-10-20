@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
 		<section className="hero-bg gap-y-8 flex flex-col items-center pt-10 w-[100dvw]">
 			<img src={logo} alt="" />
 			<article className="max-w-xl text-center mx-5">
-				<h1 className="text-3xl md:text-4xl ">
+				<h1 className="text-3xl md:text-4xl text-darkGrayishBlue font-bold">
 					A history of everything you copy
 				</h1>
 				<p className="mt-5 text-grayishBlue">
