@@ -1,4 +1,6 @@
 import logo from "../../assets/images/logo.svg";
+import Button from "../common/Button";
+
 const Hero: React.FC = () => {
 	return (
 		<section className="hero-bg gap-y-8 flex flex-col items-center pt-10 w-[100dvw]">
@@ -13,12 +15,8 @@ const Hero: React.FC = () => {
 				</p>
 			</article>
 			<div className="flex md:flex-row flex-col gap-4">
-				<button className="text-white bg-strongCyan active:bg-opacity-80 font-bold px-5 py-2 rounded-full">
-					Download for IOS
-				</button>
-				<button className="text-white bg-lightBlue font-bold px-5 py-2 rounded-full">
-					Download for Mac
-				</button>
+				<Button colorClass="bg-strongCyan" text="Download for IOS" />
+				<Button colorClass="bg-lightBlue" text="Download for Mac" />
 			</div>
 		</section>
 	);
