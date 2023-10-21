@@ -10,13 +10,13 @@ const Footer: React.FC = () => {
 				<div className="flex flex-col gap-y-3 sm:gap-y-1">
 					<a
 						href="#"
-						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-xs"
+						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-md"
 					>
 						FAQs
 					</a>
 					<a
 						href="#"
-						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-xs"
+						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-md"
 					>
 						Contact Us
 					</a>
@@ -24,13 +24,13 @@ const Footer: React.FC = () => {
 				<div className="flex flex-col  gap-y-3 sm:gap-y-1">
 					<a
 						href="#"
-						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-xs"
+						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-md"
 					>
 						Privacy Policy
 					</a>
 					<a
 						href="#"
-						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-xs"
+						className="text-darkGrayishBlue hover:text-strongCyan active:text-strongCyan text-md"
 					>
 						Press Kit
 					</a>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
 				<div className="flex flex-col gap-y-3 sm:gap-y-1">
 					<a
 						href="#"
-						className="text-darkGrayishBlue hover:text-strongCyan text-xs"
+						className="text-darkGrayishBlue hover:text-strongCyan text-md"
 					>
 						Install Guide
 					</a>
