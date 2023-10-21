@@ -12,8 +12,8 @@ const Workflow: React.FC = () => {
 				<p className="text-grayishBlue mt-5">We've got the tools to boost your productivity.</p>
 
 			</article>
-			<ul className="flex w-[100dvw] gap-y-10 justify-evenly flex-wrap">
-				<li className="max-w-xs flex flex-col justify-start items-center text-center gap-y-3 ">
+			<ul className="flex w-[100dvw] gap-y-10 justify-evenly items-start	 flex-wrap">
+				<li className="max-w-xs flex flex-col justify-evenly items-center text-center gap-y-5">
 					<img src={blackListIcon} className="mb-3" alt="blacklist icon" />
 					<h3 className="font-bold text-xl">Create blacklists</h3>
 					<p className="text-grayishBlue leading-7">
@@ -21,7 +21,7 @@ const Workflow: React.FC = () => {
 						clipboard by excluding certain sources.
 					</p>
 				</li>
-				<li className="max-w-xs flex flex-col justify-start items-center text-center gap-y-3">
+				<li className="max-w-xs flex flex-col justify-evenly items-center text-center gap-y-5">
 					<img src={textIcon} className="mb-3" alt="text icon" />
 					<h3 className="font-bold text-xl">Plain text snippets</h3>
 					<p className="text-grayishBlue leading-7">
@@ -29,7 +29,7 @@ const Workflow: React.FC = () => {
 						consistent look.
 					</p>
 				</li>
-				<li className="max-w-xs flex flex-col justify-start items-center text-center gap-y-3">
+				<li className="max-w-xs flex flex-col justify-evenly items-center text-center gap-y-5">
 					<img src={previewIcon} className="mb-3" alt="preview icon" />
 					<h3 className="font-bold text-xl">Sneak preview</h3>
 					<p className="text-grayishBlue leading-7">

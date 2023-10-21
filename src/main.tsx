@@ -4,11 +4,16 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./pages/Home/index.tsx";
 import Error404 from "./pages/error/Error.tsx";
-
+import Footer from "./components/common/Footer.tsx";
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <LandingPage />,
+		element: (
+			<>
+				<LandingPage />
+				<Footer />
+			</>
+		),
 		errorElement: <Error404 />,
 	},
 ]);
